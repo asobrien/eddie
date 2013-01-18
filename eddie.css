@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BLOCK FONTS WHILE LOADING */
+.wf-loading a, .wf-loading h1, .wf-loading h4, .wf-loading p {
+	visibility:hidden;
+    text-decoration:none;
+}
+
+body {
+	background: url('canvas.jpg') top left repeat;
+    overflow:auto;
+}
+
+#main_container {
+	width: 525px;
+	height: auto;
+	margin: 50px auto;
+    background: url('paper-500x1500.jpg') center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow:auto;
+    box-shadow: 5px 5px 25px 5px #000;
+}
+
+#eddie_container {
+    position:center;
+	width: 450px;
+	height: auto;
+	margin: 0px auto;
+	padding-top:25px;
+}
+
+#subtext_container {
+    position:center;
+    width: 450px;
+    height: auto;
+    margin: 50px auto;
+    margin-top:40px;
+}
+
+a { color:#000000; text-decoration: none; border-bottom:1px dotted; }
+
+p {
+	text-align:justify;
+	color:#000000;
+	font-family: 'Playfair Display', serif;
+    font-size:14px;
+}
+
+p.center {
+    text-align:center;
+    padding:5px 0px;
+    font-family: 'Diplomata', serif;
+    letter-spacing:-2px;
+}
+
+h4 {
+    font-family: 'Holtwood One SC', serif;
+    padding-top:12px;
+    padding-bottom:5px;
+    line-height:1.25;
+    text-shadow:
+        -0.4px -0.4px 0 #D0D0D0,  
+        0.4px -0.4px 0 #D0D0D0,
+        -0.4px 0.4px 0 #D0D0D0,
+        0.4px 0.4px 0 #D0D0D0 ;
+}
+
