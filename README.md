@@ -1,7 +1,7 @@
 eddie
 =====
 
-Source code for eddie.ruok.org
+Source code for [eddie.ruok.org](eddie.ruok.org).
 
 ### Linen Texture ###
 
